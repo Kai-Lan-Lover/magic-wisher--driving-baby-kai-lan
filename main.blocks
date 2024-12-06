@@ -1,0 +1,61 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="input_logo_event" id="~43,N-ts^yrVZ+U/i;?P" x="583" y="-236"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="kitronik_servolite_turn_left" id="XyGS^k,S9Y+%kp?e0F1["><value name="deg"><shadow type="math_number" id="juZYLV_9###ZCdZ(j`]w"><field name="NUM">90</field></shadow></value><next><block type="device_show_leds" id="]ofv|~I~4e%OD9+zir6|"><field name="LEDS">`
+        . . . . . 
+        . . # # . 
+        # # # # # 
+        # # # # # 
+        . # . # .
+        `</field></block></next></block></statement></block><block type="device_forever" id="ZUu]hET|oq70b0L{AvA0" x="62" y="-189"><statement name="HANDLER"><block type="music_playable_play_default_bkg" id="KNSMgy2M#NyC@/I;GB{m"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="V-e04l#DQp]W`js$*e81"><field name="melody">Melodies.Nyan</field></shadow></value></block></statement></block><block type="pxt-on-start" id="MlTJF0OLaX;+S}Y.)}r7" x="0" y="0"><statement name="HANDLER"><block type="kitronik_servolite_set_movement_speed_param" id="m+RE^i:-;_NkF^t.]i__"><value name="distPerSec"><shadow type="math_number" id="=(dn]`zgP$BX#1!9[LOW"><field name="NUM">100000000000</field></shadow></value><next><block type="device_show_leds" id=":X`xkVkIShieMV;Oxzro"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="mtF7wuXQVo%@Wr22T%)0"><next><block type="device_print_message" id="sR}=CT`C1tZM)hX-@{/k"><value name="text"><shadow type="text" id="5O.oS-QVI,]L*kWOAoMC"><field name="TEXT">i can do magic WISHES &amp; drive</field></shadow></value><next><block type="basic_show_icon" id="{*nJ+BpnR0uz;^3q?8SK"><field name="i">IconNames.Happy</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="SKQ#S{,NOqs{ZOO?3]OT" x="449" y="-2"><field name="NAME">Gesture.FreeFall</field><statement name="HANDLER"><block type="device_print_message" id="_LfUH2c3z:JX9e8c/L-["><value name="text"><shadow type="text" id="B;RrWel@j(DsVln]@Oc3"><field name="TEXT">Good bye forever</field></shadow></value><next><block type="controls_repeat_ext" id="s[{MeE.ID=0oIhEk]s`j"><value name="TIMES"><shadow type="math_whole_number" id="qW)Nd*Se5EZXh`7FqQ_u"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="T$%``9yy0xhYuQj@,jN3"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="basic_show_icon" id="zuY6LI-3uMoO+U]N6:UY"><field name="i">IconNames.Skull</field><next><block type="device_show_leds" id="`*8D((OvS)PPx[mXy9iz"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></next></block></statement></block><block type="input_logo_event" id="x:C^A)/+TfF8+?z^|~^V" x="787" y="6"><field name="action">TouchButtonEvent.Released</field><statement name="HANDLER"><block type="kitronik_servolite_turn_right" id="/n~Va3W(Qyq:HDQntUfO"><value name="deg"><shadow type="math_number" id="O+0@l9w^x%1aR,9J}o-!"><field name="NUM">90</field></shadow></value><next><block type="device_show_leds" id="B=t~kX=sb=!N{z6wJjp4"><field name="LEDS">`
+        . . . . . 
+        . # # . . 
+        # # # # # 
+        # # # # # 
+        . # . # .
+        `</field></block></next></block></statement></block><block type="music_playable_play_default_bkg" id="q=5r5O$8=YZmFB~=hStK" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-532" y="174"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="14+6%Oc6**82ozAu}r}$" disabled-reasons="MANUALLY_DISABLED"><field name="melody">Melodies.Nyan</field></shadow></value></block><block type="device_pin_event" id="`m(~PHxfNoKK|7)L~3+9" x="-449" y="235"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="magicWand_setMagicType" id="@.9PUp$B*.,0ktEC3ej4"><field name="type">magicWand.MagicTypeList.Primary</field><next><block type="device_show_leds" id="`aL?b,n(,#SZR_}%KSP!"><field name="LEDS">`
+        . . # . . 
+        # # # # # 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_print_message" id="iYmldbqeBD|=(PbG8gae"><value name="text"><shadow type="text" id="5!Bah7,.cO:WS27Q|Xdp"><field name="TEXT">Any small wishes?</field></shadow></value><next><block type="record_startRecording" id="{M3pw[%y,5YI*Bp8Y@PA"><field name="mode">record.BlockingState.Blocking</field><next><block type="magicWand_magic" id="a)^G9-tUt@(2?R8DX.:k"><next><block type="device_print_message" id="RH~!hL.[j@7oKPmi#e6-"><value name="text"><shadow type="text" id="n/PCf}*j=cRcx)cHiQY)"><field name="TEXT">GRANTED</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="hac3G*zC%:T2%KJ~9P+c" x="987" y="221"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="kitronik_servolite_drive_forwards" id="0mvIquz%1C%GI4sGJP^4"><value name="howFar"><shadow type="math_number" id="*,`Snhvj}^FSSGOzuzKU"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id="XDFid82Sxl[yHFTAYqJz"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        . # . # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="UfdqGy473OYaU4,kPX+I" x="710" y="326"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="kitronik_servolite_drive_backwards" id="gZ~WJ+KEA(SG#Z{$-LkK"><value name="howFar"><shadow type="math_number" id="^y42|),ZW}M2Fb:66aHh"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id="0c2^Jqn#p3{x=1$fZuV4"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # . # . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="input_logo_event" id="9$e.*fGC6PrIc2fBE*(R" x="-635" y="450"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="device_show_leds" id="E~}L?kzt7O9ED)@VS{tq"><field name="LEDS">`
+        . # . . . 
+        # . # . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="basic_show_icon" id="PN)AZ3)-7[4V3wVU}xuQ"><field name="i">IconNames.Happy</field></block></next></block></statement></block><block type="device_pin_event" id="~X/2DHSTNb6V2vA*80QN" x="-184" y="489"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="magicWand_setMagicType" id="zUh2|=TO:_Sk1(#;JPsj"><field name="type">magicWand.MagicTypeList.Advanced</field><next><block type="device_show_leds" id="]XFdyD7^~@mUQt-xqTp}"><field name="LEDS">`
+        . . # . . 
+        # # # # # 
+        # # # # # 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_print_message" id="6k8k_%@$0n3V0iF3EIid"><value name="text"><shadow type="text" id="A~gTulmFis.ULG2GKXH#"><field name="TEXT">Any wishes?</field></shadow></value><next><block type="record_playAudio" id="k=~y$uc*!3nckDsYj#.Z"><field name="mode">record.BlockingState.Blocking</field><next><block type="magicWand_magic" id="e*8a8HY+kd#pAG={,5+C"><next><block type="device_print_message" id="_c/_$o(z{F0V_)sJLBJ+"><value name="text"><shadow type="text" id="Z4I^_uX+WRn=WbBDbQ19"><field name="TEXT">GRANTED</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
