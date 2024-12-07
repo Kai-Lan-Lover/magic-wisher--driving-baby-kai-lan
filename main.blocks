@@ -28,7 +28,7 @@
         # # # # # 
         # # # # # 
         . # . # .
-        `</field></block></next></block></statement></block><block type="music_playable_play_default_bkg" id="q=5r5O$8=YZmFB~=hStK" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-532" y="174"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="14+6%Oc6**82ozAu}r}$" disabled-reasons="MANUALLY_DISABLED"><field name="melody">Melodies.Nyan</field></shadow></value></block><block type="device_pin_event" id="`m(~PHxfNoKK|7)L~3+9" x="-449" y="235"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="magicWand_setMagicType" id="@.9PUp$B*.,0ktEC3ej4"><field name="type">magicWand.MagicTypeList.Primary</field><next><block type="device_show_leds" id="`aL?b,n(,#SZR_}%KSP!"><field name="LEDS">`
+        `</field></block></next></block></statement></block><block type="device_pin_event" id="`m(~PHxfNoKK|7)L~3+9" x="-449" y="235"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="magicWand_setMagicType" id="@.9PUp$B*.,0ktEC3ej4"><field name="type">magicWand.MagicTypeList.Primary</field><next><block type="device_show_leds" id="`aL?b,n(,#SZR_}%KSP!"><field name="LEDS">`
         . . # . . 
         # # # # # 
         . # # # . 
