@@ -7,6 +7,7 @@ input.onPinPressed(TouchPin.P0, function () {
         . . # . .
         . # # # .
         `)
+    basic.clearScreen()
     basic.showString("Any wishes?")
     record.playAudio(record.BlockingState.Blocking)
     magicWand.magic()
@@ -71,6 +72,7 @@ input.onPinPressed(TouchPin.P1, function () {
         . # # # .
         . . . . .
         `)
+    basic.clearScreen()
     basic.showString("Any small wishes?")
     record.startRecording(record.BlockingState.Blocking)
     magicWand.magic()
